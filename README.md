@@ -1,5 +1,5 @@
 ### Project Title - Deploy a high-availability web app using CloudFormation
-This is a cloud formation project that automates the creation of the infraestructure for deploying web applications. You can see the diagram Udacity.jpeg for visual reference.
+This is a cloud formation project that automates the creation of the infrastructure for deploying web applications. You can see the diagram Udacity.jpeg for visual reference.
 
 This project contains two main YAML files:
     - Network: This template deploys a VPC, with a pair of public and private subnets spread 
