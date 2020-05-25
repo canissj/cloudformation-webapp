@@ -1,0 +1,22 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "CSUdacityProject"
+	},
+	{
+		"ParameterKey": "AutoScallingGroupMinSize",
+		"ParameterValue": "4"
+	},
+	{
+		"ParameterKey": "AutoScallingGroupMaxSize",
+		"ParameterValue": "4"
+	},
+	{
+		"ParameterKey": "S3ZipResourceUrl",
+		"ParameterValue": "s3://canissj-bucket/udagram.zip"
+	},
+	{
+		"ParameterKey": "S3ReadOnlyRole",
+		"ParameterValue": "UdacityS3ReadOnlyEC2"
+	}
+]
