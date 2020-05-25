@@ -1,4 +1,4 @@
-## Project Title - Deploy a high-availability web app using CloudFormation
+## Deploy a high-availability web app using CloudFormation
 
 This is a cloud formation project that automates the creation of the infrastructure for deploying web applications. You can see the diagram Udacity.jpeg for visual reference.
 
@@ -25,6 +25,6 @@ This project contains two main YAML files:
 
 1. Create the s3 bucket and push the .zip file. This project provides a file named 'udagram.zip' that could be use as example. Then change the S3ZipResourceUrl with the s3 bucket url.
 2. Create IAM Role for granting s3 bucket read permissions. Then change S3ReadOnlyRole property in server-parameters.json
-3. Run <addr>`sh create.sh "replace_with_your_infra_name" network.yml network-parameters.json"`
+3. Run <addr>`sh create.sh "replace_with_your_infra_name" network.yml network-parameters.json`
 4. Run <addr>`sh create.sh "replace_with_your_server_name" servers.yml server-parameters.json`
 5. Look for the HTTP-DNS-NAME output that will be generated from step 4 to test your web app !
